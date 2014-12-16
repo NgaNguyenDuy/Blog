@@ -1,0 +1,18 @@
+{
+  "name": "blog",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "serve-favicon": "^2.1.6",
+    "errorhandler": "^1.2.2",
+    "vf": "^0.1.6",
+    "vsoft-boot": "0.0.2",
+    "vsoft-datasource-juggler": "^2.10.7"
+  },
+  "devDependencies": {
+    "debug": "^2.1.0",
+    "vsoft-explorer": "^0.2.0"
+  }
+}

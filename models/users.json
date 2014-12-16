@@ -1,0 +1,13 @@
+{
+    "name": "users",
+    "base": "User",
+    "properties": {
+        "FullName": {
+            "type": "string"
+        }
+    },
+    "hidden":["realm", "credentials", "challenges", "emailVerified", "verificationToken", "status", "created", "lastUpdated"],
+    "validations": [],
+    "relations": {},
+    "acls": []
+}
