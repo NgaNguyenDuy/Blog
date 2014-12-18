@@ -1,0 +1,34 @@
+{
+    "name": "topics",
+    "base": "PersistedModel",
+    "properties": {
+        "title": {
+            "type": "string"
+        },
+        "icon": {
+            "type": "string"
+        },
+        "url": {
+            "type": "string"
+        },
+        "status": {
+            "type": "boolean"
+        },
+        "visibily": {
+            "type": "string"
+        },
+        "start": {
+            "type": "boolean",
+            "default": false
+        },
+        "topicTypes": {
+            "type": "string"
+        }
+    },
+    "hidden":["realm", "credentials", "challenges", "emailVerified", "verificationToken", "status", "created", "lastUpdated"],
+    "validations": [],
+    "relations": {
+        
+    },
+    "acls": []
+}

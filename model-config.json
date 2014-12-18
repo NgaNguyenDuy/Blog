@@ -27,5 +27,8 @@
     },
     "users": {
         "dataSource": "db"
+    },
+    "topics": {
+        "dataSource": "db"
     }
 }

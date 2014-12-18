@@ -3,8 +3,11 @@ var boot = require('vsoft-boot');
 
 var app = vf();
 
-
+// Set up favicon
 app.use(vf.favicon());
+
+
+
 boot(app, __dirname);
 
 

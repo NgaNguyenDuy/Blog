@@ -2,12 +2,21 @@
     "name": "users",
     "base": "User",
     "properties": {
-        "FullName": {
+        "firstName": {
+            "type": "string"
+        },
+        "lastName": {
             "type": "string"
         }
     },
     "hidden":["realm", "credentials", "challenges", "emailVerified", "verificationToken", "status", "created", "lastUpdated"],
     "validations": [],
-    "relations": {},
+    "relations": {
+        "topics": {
+            "type": "hasMany",
+            "model": "topics",
+            "foreignKey": "id"
+        }
+    },
     "acls": []
 }
