@@ -1,5 +1,5 @@
 {
-    "name": "topics",
+    "name": "Topic",
     "base": "PersistedModel",
     "properties": {
         "title": {
@@ -25,10 +25,13 @@
             "type": "string"
         }
     },
-    "hidden":["realm", "credentials", "challenges", "emailVerified", "verificationToken", "status", "created", "lastUpdated"],
     "validations": [],
     "relations": {
-        
+        "nodebs": {
+            "type": "hasMany",
+            "model": "Topic",
+            "foreignKey": "nodeID"
+        }
     },
     "acls": []
 }

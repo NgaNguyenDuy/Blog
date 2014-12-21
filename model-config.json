@@ -25,10 +25,19 @@
         "dataSource": "db",
         "public": false
     },
-    "users": {
+    "user": {
         "dataSource": "db"
     },
-    "topics": {
+    "Topic": {
+        "dataSource": "db"
+    },
+    "Nodeb": {
+        "dataSource": "db"
+    },
+    "Comment": {
+        "dataSource": "db"
+    },
+    "Step": {
         "dataSource": "db"
     }
 }
