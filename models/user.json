@@ -11,7 +11,18 @@
     },
     "validations": [],
     "relations": {
-        
+        "topics": {
+            "type": "hasMany",
+            "model": "Topic",
+            "foreignKey": "topicID",
+            "through": "tUser"
+        },
+        "nodebs": {
+            "type": "hasMany",
+            "model": "Nodeb",
+            "foreignKey": "nodebID",
+            "through": "pUser"
+        }
     },
     "acls": [
         {

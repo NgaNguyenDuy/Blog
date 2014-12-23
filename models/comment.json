@@ -10,8 +10,8 @@
     "relations": {
         "nodeb": {
             "type": "belongsTo",
-            "model": "Nodeb",
-            "foreignKey": "nodeId"
+            "model": "Comment",
+            "foreignKey": "nodeID"
         }
     },
     "acls": []

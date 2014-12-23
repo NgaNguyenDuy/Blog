@@ -39,5 +39,11 @@
     },
     "Step": {
         "dataSource": "db"
+    },
+    "tUser": {
+        "dataSource": "db"
+    },
+    "pUser": {
+        "dataSource": "db"
     }
 }

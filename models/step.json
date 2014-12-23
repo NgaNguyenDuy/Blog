@@ -17,7 +17,7 @@
         "nodebs": {
             "type": "hasMany",
             "model": "Step",
-            "foreignKey": "nodeId"
+            "foreignKey": "nodeID"
         }
     },
     "acls": []

@@ -31,6 +31,12 @@
             "type": "hasMany",
             "model": "Topic",
             "foreignKey": "nodeID"
+        },
+        "users": {
+            "type": "hasMany",
+            "model": "user",
+            "foreignKey": "userId",
+            "through": "tUser"
         }
     },
     "acls": []

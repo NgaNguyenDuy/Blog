@@ -17,17 +17,23 @@
         "topic": {
             "type" : "belongsTo",
             "model": "Topic",
-            "foreignKey": ""
+            "foreignKey": "topicID"
         },
         "comments": {
             "type": "hasMany",
-            "model": "Comment",
+            "model": "Nodeb",
             "foreignKey": "commentID"
         },
         "step": {
             "type": "belongsTo",
             "model": "Step",
-            "foreignKey": ""
+            "foreignKey": "stepID"
+        },
+        "users": {
+            "type": "hasMany",
+            "model": "user",
+            "foreignKey": "userId",
+            "through": "pUser"
         }
     },
     "acls": []
